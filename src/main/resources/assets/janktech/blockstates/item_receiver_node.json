@@ -1,0 +1,7 @@
+{
+	"variants": {
+		"": {
+			"model": "janktech:block/item_receiver_node"
+		}
+	}
+}

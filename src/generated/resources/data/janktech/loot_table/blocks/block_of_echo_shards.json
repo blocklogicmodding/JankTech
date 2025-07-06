@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "janktech:block_of_echo_shards"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "janktech:blocks/block_of_echo_shards"
+}

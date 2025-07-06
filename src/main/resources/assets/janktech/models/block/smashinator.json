@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "north": "janktech:block/smashinator_front",
+    "south": "janktech:block/smashinator_sides",
+    "east": "janktech:block/smashinator_sides",
+    "west": "janktech:block/smashinator_sides",
+    "up": "janktech:block/smashinator_top_bottom",
+    "down": "janktech:block/smashinator_top_bottom",
+    "particle": "janktech:block/smashinator_front"
+  }
+}

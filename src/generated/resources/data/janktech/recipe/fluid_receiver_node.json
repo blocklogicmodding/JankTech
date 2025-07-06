@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "E": {
+      "item": "janktech:fluid_pipe"
+    },
+    "H": {
+      "item": "minecraft:hopper"
+    }
+  },
+  "pattern": [
+    " E ",
+    "EHE",
+    " E "
+  ],
+  "result": {
+    "count": 4,
+    "id": "janktech:fluid_receiver_node"
+  }
+}

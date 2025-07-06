@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "janktech:item/actually_huge_upgrade"
+  }
+}

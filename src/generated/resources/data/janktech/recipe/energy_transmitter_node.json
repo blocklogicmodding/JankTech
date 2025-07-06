@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "D": {
+      "item": "minecraft:dispenser"
+    },
+    "E": {
+      "item": "janktech:energy_pipe"
+    }
+  },
+  "pattern": [
+    " E ",
+    "EDE",
+    " E "
+  ],
+  "result": {
+    "count": 4,
+    "id": "janktech:energy_transmitter_node"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "north": "janktech:block/moo_juice_synthesizer_sides",
+    "south": "janktech:block/moo_juice_synthesizer_sides",
+    "east": "janktech:block/moo_juice_synthesizer_sides",
+    "west": "janktech:block/moo_juice_synthesizer_sides",
+    "up": "janktech:block/moo_juice_synthesizer_top",
+    "down": "janktech:block/moo_juice_synthesizer_bottom",
+    "particle": "janktech:block/moo_juice_synthesizer_sides"
+  }
+}

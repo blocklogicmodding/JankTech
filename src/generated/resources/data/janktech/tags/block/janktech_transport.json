@@ -1,0 +1,13 @@
+{
+  "values": [
+    "janktech:energy_receiver_node",
+    "janktech:energy_transmitter_node",
+    "janktech:energy_pipe",
+    "janktech:fluid_receiver_node",
+    "janktech:fluid_transmitter_node",
+    "janktech:fluid_pipe",
+    "janktech:item_receiver_node",
+    "janktech:item_transmitter_node",
+    "janktech:item_pipe"
+  ]
+}

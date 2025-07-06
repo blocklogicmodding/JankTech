@@ -1,0 +1,19 @@
+{
+  "values": [
+    "minecraft:rotten_flesh",
+    "minecraft:bone",
+    "minecraft:bone_block",
+    "minecraft:string",
+    "#janktech:janktech_wool_block_items",
+    "minecraft:spider_eye",
+    "minecraft:gunpowder",
+    "minecraft:feather",
+    "minecraft:chicken",
+    "minecraft:leather",
+    "minecraft:beef",
+    "minecraft:porkchop",
+    "minecraft:rabbit",
+    "minecraft:rabbit_hide",
+    "minecraft:slime_ball"
+  ]
+}

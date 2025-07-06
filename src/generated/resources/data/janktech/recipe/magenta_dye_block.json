@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "D": {
+      "item": "minecraft:magenta_dye"
+    }
+  },
+  "pattern": [
+    "DD ",
+    "DD ",
+    "   "
+  ],
+  "result": {
+    "count": 1,
+    "id": "janktech:magenta_dye_block"
+  }
+}

@@ -1,0 +1,12 @@
+{
+	"parent": "minecraft:block/cube",
+	"textures": {
+		"north": "janktech:block/dark_dirt_sides",
+		"south": "janktech:block/dark_dirt_sides",
+		"east": "janktech:block/dark_dirt_sides",
+		"west": "janktech:block/dark_dirt_sides",
+		"up": "janktech:block/dark_dirt",
+		"down": "janktech:block/dark_dirt",
+		"particle": "janktech:block/dark_dirt_sides"
+	}
+}

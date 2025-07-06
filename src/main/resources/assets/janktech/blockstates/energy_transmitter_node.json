@@ -1,0 +1,7 @@
+{
+	"variants": {
+		"": {
+			"model": "janktech:block/energy_transmitter_node"
+		}
+	}
+}

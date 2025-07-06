@@ -1,0 +1,15 @@
+// 1.21.1	2025-07-07T00:43:54.9091698	Tags for minecraft:block mod id janktech
+b6332f1eacc99885e63827dd5a42de85f5ca8c3e data/janktech/tags/block/janktech_dirt_like_blocks.json
+9c0823d09f8bda25ccf889fad32d79504a946670 data/janktech/tags/block/janktech_dye_blocks.json
+99a1dc8b6918fd76a6171ba586ecaa70f19bf0d7 data/janktech/tags/block/janktech_generators.json
+a8dcafdf91ef837fc0842ce89017dea8d696ae2d data/janktech/tags/block/janktech_machine_things.json
+4d815c35dcdd81427d4d0532c297bdb60441a522 data/janktech/tags/block/janktech_misc_blocks.json
+f04f12c7752ef4a1bf7a94d2b3015643809eb475 data/janktech/tags/block/janktech_mob_spawnable_blocks.json
+fb0ec4164e874b75b35eb52ade8e2cd70fa24438 data/janktech/tags/block/janktech_storage.json
+ec840a003165db957710875f8bd34843e0ad39e3 data/janktech/tags/block/janktech_transport.json
+f521a3dc5c5658989ca4c6c4a2ed9a0dbe7b02ef data/janktech/tags/block/janktech_trashcans.json
+77829b6fc27f73d63c05e0a50150c9435263b6fb data/janktech/tags/block/janktech_wool_blocks.json
+7eb9bfd2f31340794224dfac473e97a21786fc1b data/minecraft/tags/block/mineable/axe.json
+538c4efc6af60a73f73ef962a41b801e57f1b9bc data/minecraft/tags/block/mineable/pickaxe.json
+c5dae408bd145aebad92792f68913d965730e85d data/minecraft/tags/block/mineable/shovel.json
+0cf6862e892429f28b6dfaee64a6ed38140dab6b data/minecraft/tags/block/needs_diamond_tool.json

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "minecraft:honey_block"
+    },
+    "H": {
+      "item": "minecraft:honey_bottle"
+    },
+    "R": {
+      "item": "minecraft:redstone_block"
+    }
+  },
+  "pattern": [
+    "BHB",
+    "HRH",
+    "BHB"
+  ],
+  "result": {
+    "count": 1,
+    "id": "janktech:sticky_generator"
+  }
+}

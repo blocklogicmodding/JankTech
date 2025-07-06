@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "north": "janktech:block/cheese_squeezer_sides",
+    "south": "janktech:block/cheese_squeezer_sides",
+    "east": "janktech:block/cheese_squeezer_sides",
+    "west": "janktech:block/cheese_squeezer_sides",
+    "up": "janktech:block/cheese_squeezer_top_bottom",
+    "down": "janktech:block/cheese_squeezer_top_bottom",
+    "particle": "janktech:block/cheese_squeezer_sides"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_ender_pearl_block": {
+      "conditions": {
+        "items": [
+          {
+            "items": "janktech:block_of_ender_pearls"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "janktech:ender_generator"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_ender_pearl_block"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "janktech:ender_generator"
+    ]
+  }
+}

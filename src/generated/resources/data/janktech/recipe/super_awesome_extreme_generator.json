@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "minecraft:netherite_block"
+    },
+    "E": {
+      "item": "janktech:block_of_ender_pearls"
+    },
+    "N": {
+      "item": "minecraft:netherite_ingot"
+    },
+    "S": {
+      "item": "janktech:block_of_echo_shards"
+    },
+    "W": {
+      "item": "janktech:block_of_nether_stars"
+    },
+    "X": {
+      "item": "minecraft:beacon"
+    }
+  },
+  "pattern": [
+    "NEN",
+    "SXW",
+    "NBN"
+  ],
+  "result": {
+    "count": 1,
+    "id": "janktech:super_awesome_extreme_generator"
+  }
+}

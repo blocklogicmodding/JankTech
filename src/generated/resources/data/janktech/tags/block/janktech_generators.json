@@ -1,0 +1,17 @@
+{
+  "values": [
+    "janktech:ender_generator",
+    "janktech:bio_generator",
+    "janktech:moblet_generator",
+    "janktech:cheesy_generator",
+    "janktech:coalburn_generator",
+    "janktech:lava_generator",
+    "janktech:starry_generator",
+    "janktech:echoing_generator",
+    "janktech:colorburn_generator",
+    "janktech:sticky_generator",
+    "janktech:withered_generator",
+    "janktech:alchemical_generator",
+    "janktech:super_awesome_extreme_generator"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "minecraft:milk_bucket"
+    },
+    "R": {
+      "item": "minecraft:redstone_block"
+    },
+    "W": {
+      "item": "minecraft:wheat"
+    }
+  },
+  "pattern": [
+    "WWW",
+    "WBW",
+    "RRR"
+  ],
+  "result": {
+    "count": 1,
+    "id": "janktech:moo_juice_synthesizer"
+  }
+}

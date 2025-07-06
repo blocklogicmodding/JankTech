@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "G": {
+      "tag": "c:glass_blocks"
+    },
+    "X": {
+      "item": "minecraft:glowstone_dust"
+    }
+  },
+  "pattern": [
+    "XXX",
+    "XGX",
+    "XXX"
+  ],
+  "result": {
+    "count": 8,
+    "id": "janktech:seemore_glass"
+  }
+}

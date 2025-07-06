@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_kinda_big_upgrade": {
+      "conditions": {
+        "items": [
+          {
+            "items": "janktech:kinda_big_upgrade"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "janktech:really_big_upgrade"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_kinda_big_upgrade"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "janktech:really_big_upgrade"
+    ]
+  }
+}

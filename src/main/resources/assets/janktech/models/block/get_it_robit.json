@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "north": "janktech:block/get_it_robit_front",
+    "south": "janktech:block/get_it_robit_sides",
+    "east": "janktech:block/get_it_robit_sides",
+    "west": "janktech:block/get_it_robit_sides",
+    "up": "janktech:block/get_it_robit_top_bottom",
+    "down": "janktech:block/get_it_robit_top_bottom",
+    "particle": "janktech:block/get_it_robit_front"
+  }
+}

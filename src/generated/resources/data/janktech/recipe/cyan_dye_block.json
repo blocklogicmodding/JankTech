@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "D": {
+      "item": "minecraft:cyan_dye"
+    }
+  },
+  "pattern": [
+    "DD ",
+    "DD ",
+    "   "
+  ],
+  "result": {
+    "count": 1,
+    "id": "janktech:cyan_dye_block"
+  }
+}

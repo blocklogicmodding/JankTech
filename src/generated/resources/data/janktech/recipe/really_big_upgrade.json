@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "D": {
+      "item": "minecraft:diamond"
+    },
+    "K": {
+      "item": "janktech:kinda_big_upgrade"
+    }
+  },
+  "pattern": [
+    "DDD",
+    "DKD",
+    "DDD"
+  ],
+  "result": {
+    "count": 1,
+    "id": "janktech:really_big_upgrade"
+  }
+}

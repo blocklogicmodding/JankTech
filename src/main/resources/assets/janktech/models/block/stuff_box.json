@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "north": "janktech:block/suff_box_front",
+    "south": "janktech:block/suff_box_sides",
+    "east": "janktech:block/suff_box_sides",
+    "west": "janktech:block/suff_box_sides",
+    "up": "janktech:block/suff_box_sides",
+    "down": "janktech:block/suff_box_sides",
+    "particle": "janktech:block/suff_box_front"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "tag": "janktech:janktech_dye_block_items"
+    },
+    "D": {
+      "tag": "c:dyes"
+    },
+    "R": {
+      "item": "minecraft:redstone_block"
+    }
+  },
+  "pattern": [
+    "BDB",
+    "DRD",
+    "BDB"
+  ],
+  "result": {
+    "count": 1,
+    "id": "janktech:colorburn_generator"
+  }
+}

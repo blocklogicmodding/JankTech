@@ -1,0 +1,12 @@
+{
+	"parent": "minecraft:block/cube",
+	"textures": {
+		"north": "janktech:block/glimmer_grass_sides",
+		"south": "janktech:block/glimmer_grass_sides",
+		"east": "janktech:block/glimmer_grass_sides",
+		"west": "janktech:block/glimmer_grass_sides",
+		"up": "janktech:block/glimmer_grass",
+		"down": "janktech:block/dirt_bottom",
+		"particle": "janktech:block/glimmer_grass_sides"
+	}
+}

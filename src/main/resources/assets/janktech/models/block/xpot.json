@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "north": "janktech:block/xpot_sides",
+    "south": "janktech:block/xpot_sides",
+    "east": "janktech:block/xpot_sides",
+    "west": "janktech:block/xpot_sides",
+    "up": "janktech:block/xpot_top",
+    "down": "janktech:block/xpot_bottom",
+    "particle": "janktech:block/xpot_sides"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "janktech:block_of_nether_stars"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "minecraft:nether_star"
+  }
+}
