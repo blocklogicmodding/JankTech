@@ -30,6 +30,7 @@ public class JTCreativeTabs {
                         output.accept(JTItems.WITHER_WISP);
                         output.accept(JTItems.GLIMMER_SPROUT);
                         output.accept(JTItems.CHEESE);
+                        output.accept(JTItems.CHEESE_SAMMY);
                         output.accept(JTItems.GRILLED_CHEESE_SANDWICH);
                         output.accept(JTItems.BRIEFCASE_OF_HOLDING);
                         output.accept(JTItems.MOB_BOOPER);
