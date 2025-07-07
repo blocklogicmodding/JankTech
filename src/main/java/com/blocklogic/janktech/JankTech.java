@@ -1,8 +1,15 @@
 package com.blocklogic.janktech;
 
 import com.blocklogic.janktech.block.JTBlocks;
+import com.blocklogic.janktech.block.entity.JTBlockEntities;
 import com.blocklogic.janktech.item.JTCreativeTabs;
 import com.blocklogic.janktech.item.JTItems;
+import com.blocklogic.janktech.screen.JTMenuTypes;
+import com.blocklogic.janktech.screen.transport.ItemReceiverNodeScreen;
+import com.blocklogic.janktech.screen.transport.ItemTransmitterNodeScreen;
+import net.neoforged.api.distmarker.Dist;
+import net.neoforged.api.distmarker.OnlyIn;
+import net.neoforged.neoforge.client.event.RegisterMenuScreensEvent;
 import org.slf4j.Logger;
 
 import com.mojang.logging.LogUtils;
@@ -12,7 +19,6 @@ import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.fml.common.Mod;
 import net.neoforged.fml.ModContainer;
 import net.neoforged.fml.event.lifecycle.FMLCommonSetupEvent;
-import net.neoforged.neoforge.common.NeoForge;
 import net.neoforged.neoforge.event.BuildCreativeModeTabContentsEvent;
 import net.neoforged.neoforge.event.server.ServerStartingEvent;
 
@@ -27,12 +33,14 @@ public class JankTech {
 
         modEventBus.addListener(this::commonSetup);
 
-        NeoForge.EVENT_BUS.register(this);
         JTBlocks.register(modEventBus);
         JTItems.register(modEventBus);
         JTCreativeTabs.register(modEventBus);
+        JTBlockEntities.register(modEventBus);
+        JTMenuTypes.register(modEventBus);
 
         modEventBus.addListener(this::addCreative);
+        modEventBus.addListener(JankTech::registerScreens);
     }
 
     private void commonSetup(FMLCommonSetupEvent event) {
@@ -44,7 +52,9 @@ public class JankTech {
     }
 
     @SubscribeEvent
-    public void onServerStarting(ServerStartingEvent event) {
-
+    @OnlyIn(Dist.CLIENT)
+    public static void registerScreens(RegisterMenuScreensEvent event) {
+        event.register(JTMenuTypes.ITEM_RECEIVER_NODE_MENU.get(), ItemReceiverNodeScreen::new);
+        event.register(JTMenuTypes.ITEM_TRANSMITTER_NODE_MENU.get(), ItemTransmitterNodeScreen::new);
     }
 }
