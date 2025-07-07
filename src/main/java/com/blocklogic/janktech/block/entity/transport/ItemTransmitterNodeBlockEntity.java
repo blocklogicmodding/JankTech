@@ -209,7 +209,7 @@ public class ItemTransmitterNodeBlockEntity extends BlockEntity {
             }
 
             if (entity instanceof ItemPipeBlockEntity) {
-                ItemReceiverNodeBlockEntity receiver = followPipeNetwork(level, checkPos, pos, 32); // Max 32 pipe length
+                ItemReceiverNodeBlockEntity receiver = followPipeNetwork(level, checkPos, pos, 32);
                 if (receiver != null) {
                     return receiver;
                 }

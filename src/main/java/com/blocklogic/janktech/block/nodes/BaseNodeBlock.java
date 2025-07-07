@@ -1,5 +1,3 @@
-// Base abstract node class
-// src/main/java/com/blocklogic/janktech/block/nodes/BaseNodeBlock.java
 package com.blocklogic.janktech.block.nodes;
 
 import net.minecraft.core.BlockPos;
