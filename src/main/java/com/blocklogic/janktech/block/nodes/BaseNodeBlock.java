@@ -26,7 +26,6 @@ public abstract class BaseNodeBlock extends Block {
     public static final BooleanProperty UP = BooleanProperty.create("up");
     public static final BooleanProperty DOWN = BooleanProperty.create("down");
 
-    // Base node shapes for each facing direction (6x3x1 rotated appropriately)
     protected static final VoxelShape SHAPE_UP = Block.box(5, 0, 5, 11, 10, 11);
     protected static final VoxelShape SHAPE_DOWN = Block.box(5, 6, 5, 11, 16, 11);
     protected static final VoxelShape SHAPE_NORTH = Block.box(5, 5, 6, 11, 11, 16);
@@ -34,7 +33,6 @@ public abstract class BaseNodeBlock extends Block {
     protected static final VoxelShape SHAPE_EAST = Block.box(0, 5, 5, 10, 11, 11);
     protected static final VoxelShape SHAPE_WEST = Block.box(6, 5, 5, 16, 11, 11);
 
-    // Connection shapes (same as pipes)
     protected static final VoxelShape NORTH_SHAPE = Block.box(6, 6, 0, 10, 10, 6);
     protected static final VoxelShape EAST_SHAPE = Block.box(10, 6, 6, 16, 10, 10);
     protected static final VoxelShape SOUTH_SHAPE = Block.box(6, 6, 10, 10, 10, 16);
@@ -76,7 +74,6 @@ public abstract class BaseNodeBlock extends Block {
 
     @Override
     public VoxelShape getShape(BlockState state, BlockGetter level, BlockPos pos, CollisionContext context) {
-        // Start with base node shape
         VoxelShape shape = switch (state.getValue(FACING)) {
             case UP -> SHAPE_UP;
             case DOWN -> SHAPE_DOWN;
@@ -86,7 +83,6 @@ public abstract class BaseNodeBlock extends Block {
             case WEST -> SHAPE_WEST;
         };
 
-        // Add connection shapes
         if (state.getValue(NORTH)) shape = Shapes.or(shape, NORTH_SHAPE);
         if (state.getValue(EAST)) shape = Shapes.or(shape, EAST_SHAPE);
         if (state.getValue(SOUTH)) shape = Shapes.or(shape, SOUTH_SHAPE);
@@ -114,6 +110,5 @@ public abstract class BaseNodeBlock extends Block {
         };
     }
 
-    // Abstract method to be implemented by each node type
     protected abstract boolean canConnectToPipe(BlockState pipeState);
 }
