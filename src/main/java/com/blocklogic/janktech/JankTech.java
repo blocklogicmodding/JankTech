@@ -5,7 +5,6 @@ import com.blocklogic.janktech.block.entity.JTBlockEntities;
 import com.blocklogic.janktech.item.JTCreativeTabs;
 import com.blocklogic.janktech.item.JTItems;
 import com.blocklogic.janktech.screen.JTMenuTypes;
-import com.blocklogic.janktech.screen.transport.ItemReceiverNodeScreen;
 import com.blocklogic.janktech.screen.transport.ItemTransmitterNodeScreen;
 import net.neoforged.api.distmarker.Dist;
 import net.neoforged.api.distmarker.OnlyIn;
@@ -20,7 +19,6 @@ import net.neoforged.fml.common.Mod;
 import net.neoforged.fml.ModContainer;
 import net.neoforged.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.neoforged.neoforge.event.BuildCreativeModeTabContentsEvent;
-import net.neoforged.neoforge.event.server.ServerStartingEvent;
 
 @Mod(JankTech.MODID)
 public class JankTech {
@@ -54,7 +52,6 @@ public class JankTech {
     @SubscribeEvent
     @OnlyIn(Dist.CLIENT)
     public static void registerScreens(RegisterMenuScreensEvent event) {
-        event.register(JTMenuTypes.ITEM_RECEIVER_NODE_MENU.get(), ItemReceiverNodeScreen::new);
         event.register(JTMenuTypes.ITEM_TRANSMITTER_NODE_MENU.get(), ItemTransmitterNodeScreen::new);
     }
 }
