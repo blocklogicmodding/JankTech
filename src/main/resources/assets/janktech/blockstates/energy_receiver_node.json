@@ -1,7 +1,76 @@
 {
-	"variants": {
-		"": {
-			"model": "janktech:block/energy_receiver_node"
+	"multipart": [
+		{
+			"apply": {
+				"model": "janktech:block/energy_receiver_node",
+				"x": 0,
+				"y": 0
+			},
+			"when": { "facing": "up" }
+		},
+		{
+			"apply": {
+				"model": "janktech:block/energy_receiver_node",
+				"x": 180,
+				"y": 0
+			},
+			"when": { "facing": "down" }
+		},
+		{
+			"apply": {
+				"model": "janktech:block/energy_receiver_node",
+				"x": 90,
+				"y": 0
+			},
+			"when": { "facing": "north" }
+		},
+		{
+			"apply": {
+				"model": "janktech:block/energy_receiver_node",
+				"x": 90,
+				"y": 180
+			},
+			"when": { "facing": "south" }
+		},
+		{
+			"apply": {
+				"model": "janktech:block/energy_receiver_node",
+				"x": 90,
+				"y": 90
+			},
+			"when": { "facing": "east" }
+		},
+		{
+			"apply": {
+				"model": "janktech:block/energy_receiver_node",
+				"x": 90,
+				"y": 270
+			},
+			"when": { "facing": "west" }
+		},
+		{
+			"when": { "down": "true" },
+			"apply": { "model": "janktech:block/energy_pipe_connect_down" }
+		},
+		{
+			"when": { "up": "true" },
+			"apply": { "model": "janktech:block/energy_pipe_connect_up" }
+		},
+		{
+			"when": { "north": "true" },
+			"apply": { "model": "janktech:block/energy_pipe_connect_north" }
+		},
+		{
+			"when": { "south": "true" },
+			"apply": { "model": "janktech:block/energy_pipe_connect_south" }
+		},
+		{
+			"when": { "west": "true" },
+			"apply": { "model": "janktech:block/energy_pipe_connect_west" }
+		},
+		{
+			"when": { "east": "true" },
+			"apply": { "model": "janktech:block/energy_pipe_connect_east" }
 		}
-	}
+	]
 }

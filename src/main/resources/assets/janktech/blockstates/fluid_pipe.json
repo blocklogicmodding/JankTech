@@ -1,7 +1,31 @@
 {
-	"variants": {
-		"": {
-			"model": "janktech:block/fluid_pipe"
+	"multipart": [
+		{
+			"apply": { "model": "janktech:block/fluid_pipe" }
+		},
+		{
+			"when": { "down": "true" },
+			"apply": { "model": "janktech:block/fluid_pipe_connect_down" }
+		},
+		{
+			"when": { "up": "true" },
+			"apply": { "model": "janktech:block/fluid_pipe_connect_up" }
+		},
+		{
+			"when": { "north": "true" },
+			"apply": { "model": "janktech:block/fluid_pipe_connect_north" }
+		},
+		{
+			"when": { "south": "true" },
+			"apply": { "model": "janktech:block/fluid_pipe_connect_south" }
+		},
+		{
+			"when": { "west": "true" },
+			"apply": { "model": "janktech:block/fluid_pipe_connect_west" }
+		},
+		{
+			"when": { "east": "true" },
+			"apply": { "model": "janktech:block/fluid_pipe_connect_east" }
 		}
-	}
+	]
 }

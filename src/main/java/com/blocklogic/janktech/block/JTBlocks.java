@@ -1,6 +1,10 @@
 package com.blocklogic.janktech.block;
 
 import com.blocklogic.janktech.JankTech;
+import com.blocklogic.janktech.block.nodes.*;
+import com.blocklogic.janktech.block.pipes.EnergyPipeBlock;
+import com.blocklogic.janktech.block.pipes.FluidPipeBlock;
+import com.blocklogic.janktech.block.pipes.ItemPipeBlock;
 import com.blocklogic.janktech.item.JTItems;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
@@ -212,7 +216,7 @@ public class JTBlocks {
 
     //Transport
     public static final DeferredBlock<Block> ENERGY_RECEIVER_NODE = registerBlock("energy_receiver_node",
-            () -> new Block(BlockBehaviour.Properties.of()
+            () -> new EnergyReceiverNodeBlock(BlockBehaviour.Properties.of()
                     .strength(3.0F, 3.0F)
                     .requiresCorrectToolForDrops()
                     .sound(SoundType.STONE)
@@ -220,7 +224,7 @@ public class JTBlocks {
     );
 
     public static final DeferredBlock<Block> ENERGY_TRANSMITTER_NODE = registerBlock("energy_transmitter_node",
-            () -> new Block(BlockBehaviour.Properties.of()
+            () -> new EnergyTransmitterNodeBlock(BlockBehaviour.Properties.of()
                     .strength(3.0F, 3.0F)
                     .requiresCorrectToolForDrops()
                     .sound(SoundType.STONE)
@@ -228,7 +232,7 @@ public class JTBlocks {
     );
 
     public static final DeferredBlock<Block> ENERGY_PIPE = registerBlock("energy_pipe",
-            () -> new Block(BlockBehaviour.Properties.of()
+            () -> new EnergyPipeBlock(BlockBehaviour.Properties.of()
                     .strength(3.0F, 3.0F)
                     .requiresCorrectToolForDrops()
                     .sound(SoundType.STONE)
@@ -236,7 +240,7 @@ public class JTBlocks {
     );
 
     public static final DeferredBlock<Block> FLUID_RECEIVER_NODE = registerBlock("fluid_receiver_node",
-            () -> new Block(BlockBehaviour.Properties.of()
+            () -> new FluidReceiverNodeBlock(BlockBehaviour.Properties.of()
                     .strength(3.0F, 3.0F)
                     .requiresCorrectToolForDrops()
                     .sound(SoundType.STONE)
@@ -244,7 +248,7 @@ public class JTBlocks {
     );
 
     public static final DeferredBlock<Block> FLUID_TRANSMITTER_NODE = registerBlock("fluid_transmitter_node",
-            () -> new Block(BlockBehaviour.Properties.of()
+            () -> new FluidTransmitterNodeBlock(BlockBehaviour.Properties.of()
                     .strength(3.0F, 3.0F)
                     .requiresCorrectToolForDrops()
                     .sound(SoundType.STONE)
@@ -252,7 +256,7 @@ public class JTBlocks {
     );
 
     public static final DeferredBlock<Block> FLUID_PIPE = registerBlock("fluid_pipe",
-            () -> new Block(BlockBehaviour.Properties.of()
+            () -> new FluidPipeBlock(BlockBehaviour.Properties.of()
                     .strength(3.0F, 3.0F)
                     .requiresCorrectToolForDrops()
                     .sound(SoundType.STONE)
@@ -260,7 +264,7 @@ public class JTBlocks {
     );
 
     public static final DeferredBlock<Block> ITEM_RECEIVER_NODE = registerBlock("item_receiver_node",
-            () -> new Block(BlockBehaviour.Properties.of()
+            () -> new ItemReceiverNodeBlock(BlockBehaviour.Properties.of()
                     .strength(3.0F, 3.0F)
                     .requiresCorrectToolForDrops()
                     .sound(SoundType.STONE)
@@ -268,7 +272,7 @@ public class JTBlocks {
     );
 
     public static final DeferredBlock<Block> ITEM_TRANSMITTER_NODE = registerBlock("item_transmitter_node",
-            () -> new Block(BlockBehaviour.Properties.of()
+            () -> new ItemTransmitterNodeBlock(BlockBehaviour.Properties.of()
                     .strength(3.0F, 3.0F)
                     .requiresCorrectToolForDrops()
                     .sound(SoundType.STONE)
@@ -276,7 +280,7 @@ public class JTBlocks {
     );
 
     public static final DeferredBlock<Block> ITEM_PIPE = registerBlock("item_pipe",
-            () -> new Block(BlockBehaviour.Properties.of()
+            () -> new ItemPipeBlock(BlockBehaviour.Properties.of()
                     .strength(3.0F, 3.0F)
                     .requiresCorrectToolForDrops()
                     .sound(SoundType.STONE)

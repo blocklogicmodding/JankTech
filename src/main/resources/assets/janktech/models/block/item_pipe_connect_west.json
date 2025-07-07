@@ -2,8 +2,8 @@
 	"format_version": "1.21.6",
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "janktech:block/item_connect_west",
-		"particle": "janktech:block/item_connect_west"
+		"0": "janktech:block/item_pipe_connect_west",
+		"particle": "janktech:block/item_pipe_connect_west"
 	},
 	"elements": [
 		{
