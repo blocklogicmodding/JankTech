@@ -1,6 +1,7 @@
 package com.blocklogic.janktech.screen;
 
 import com.blocklogic.janktech.JankTech;
+import com.blocklogic.janktech.screen.transport.EnergyTransmitterNodeMenu;
 import com.blocklogic.janktech.screen.transport.FluidTransmitterNodeMenu;
 import com.blocklogic.janktech.screen.transport.ItemTransmitterNodeMenu;
 import net.minecraft.core.registries.BuiltInRegistries;
@@ -22,6 +23,10 @@ public class JTMenuTypes {
     public static final Supplier<MenuType<FluidTransmitterNodeMenu>> FLUID_TRANSMITTER_NODE_MENU =
             MENUS.register("fluid_transmitter_node_menu", () ->
                     IMenuTypeExtension.create(FluidTransmitterNodeMenu::new));
+
+    public static final Supplier<MenuType<EnergyTransmitterNodeMenu>> ENERGY_TRANSMITTER_NODE_MENU =
+            MENUS.register("energy_transmitter_node_menu", () ->
+                    IMenuTypeExtension.create(EnergyTransmitterNodeMenu::new));
 
     public static void register(IEventBus eventBus) {
         MENUS.register(eventBus);

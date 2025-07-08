@@ -2,6 +2,9 @@ package com.blocklogic.janktech.block.entity;
 
 import com.blocklogic.janktech.JankTech;
 import com.blocklogic.janktech.block.JTBlocks;
+import com.blocklogic.janktech.block.entity.transport.EnergyPipeBlockEntity;
+import com.blocklogic.janktech.block.entity.transport.EnergyReceiverNodeBlockEntity;
+import com.blocklogic.janktech.block.entity.transport.EnergyTransmitterNodeBlockEntity;
 import com.blocklogic.janktech.block.entity.transport.FluidPipeBlockEntity;
 import com.blocklogic.janktech.block.entity.transport.FluidReceiverNodeBlockEntity;
 import com.blocklogic.janktech.block.entity.transport.FluidTransmitterNodeBlockEntity;
@@ -50,6 +53,22 @@ public class JTBlockEntities {
             BLOCK_ENTITIES.register("fluid_pipe_be", () ->
                     BlockEntityType.Builder.of(FluidPipeBlockEntity::new,
                             JTBlocks.FLUID_PIPE.get()).build(null));
+
+    public static final Supplier<BlockEntityType<EnergyTransmitterNodeBlockEntity>> ENERGY_TRANSMITTER_NODE_BE =
+            BLOCK_ENTITIES.register("energy_transmitter_node_be", () ->
+                    BlockEntityType.Builder.of(EnergyTransmitterNodeBlockEntity::new,
+                                    JTBlocks.ENERGY_TRANSMITTER_NODE.get())
+                            .build(null));
+
+    public static final Supplier<BlockEntityType<EnergyReceiverNodeBlockEntity>> ENERGY_RECEIVER_NODE_BE =
+            BLOCK_ENTITIES.register("energy_receiver_node_be", () ->
+                    BlockEntityType.Builder.of(EnergyReceiverNodeBlockEntity::new,
+                            JTBlocks.ENERGY_RECEIVER_NODE.get()).build(null));
+
+    public static final Supplier<BlockEntityType<EnergyPipeBlockEntity>> ENERGY_PIPE_BE =
+            BLOCK_ENTITIES.register("energy_pipe_be", () ->
+                    BlockEntityType.Builder.of(EnergyPipeBlockEntity::new,
+                            JTBlocks.ENERGY_PIPE.get()).build(null));
 
     public static void register(IEventBus eventBus) {
         BLOCK_ENTITIES.register(eventBus);

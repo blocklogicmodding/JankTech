@@ -106,5 +106,6 @@
   "tooltip.item.shift_info": "§7Hold [§8§lShift§r] for more§r",
 
   "container.janktech.item_transmitter_node": "Item Transmitter Node",
-  "container.janktech.fluid_transmitter_node": "Fluid Transmitter Node"
+  "container.janktech.fluid_transmitter_node": "Fluid Transmitter Node",
+  "container.janktech.energy_transmitter_node": "Energy Transmitter Node"
 }
