@@ -105,6 +105,6 @@
   "tooltip.item.gold_dust": "Smelts into Gold Ingots",
   "tooltip.item.shift_info": "§7Hold [§8§lShift§r] for more§r",
 
-  "container.janktech.item_receiver_node": "Item Receiver Node",
-  "container.janktech.item_transmitter_node": "Item Transmitter Node"
+  "container.janktech.item_transmitter_node": "Item Transmitter Node",
+  "container.janktech.fluid_transmitter_node": "Fluid Transmitter Node"
 }

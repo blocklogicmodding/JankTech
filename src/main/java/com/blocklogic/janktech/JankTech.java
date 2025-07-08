@@ -5,6 +5,7 @@ import com.blocklogic.janktech.block.entity.JTBlockEntities;
 import com.blocklogic.janktech.item.JTCreativeTabs;
 import com.blocklogic.janktech.item.JTItems;
 import com.blocklogic.janktech.screen.JTMenuTypes;
+import com.blocklogic.janktech.screen.transport.FluidTransmitterNodeScreen;
 import com.blocklogic.janktech.screen.transport.ItemTransmitterNodeScreen;
 import net.neoforged.api.distmarker.Dist;
 import net.neoforged.api.distmarker.OnlyIn;
@@ -53,5 +54,6 @@ public class JankTech {
     @OnlyIn(Dist.CLIENT)
     public static void registerScreens(RegisterMenuScreensEvent event) {
         event.register(JTMenuTypes.ITEM_TRANSMITTER_NODE_MENU.get(), ItemTransmitterNodeScreen::new);
+        event.register(JTMenuTypes.FLUID_TRANSMITTER_NODE_MENU.get(), FluidTransmitterNodeScreen::new);
     }
 }
